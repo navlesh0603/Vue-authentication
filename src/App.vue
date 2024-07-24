@@ -1,5 +1,6 @@
 <template>
 
+  <NavBar />
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -13,8 +14,11 @@
 </template>
 
 <script>
+import NavBar from "./components/NavBar.vue";
 export default {
   name: 'App',
-  components: {},
+  components: {
+    NavBar,
+  },
 };
 </script>
