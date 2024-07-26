@@ -1,7 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 import router from './router';
-import store from './store/store'
+import store from './store/store';
+// import SignupPage from './pages/SignupPage.vue';
 
 const app=createApp(App);
 app.use(router);
